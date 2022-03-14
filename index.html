@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Musical</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+	<!--Primera parte imagen y navegacion-->
+    <div id="page-wraper">
+		<header id="header">
+			<div class="logo">
+				<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+				 alt="original trombones logo" id="header-img">
+			</div>
+
+			<!--Barra de navegacion-->
+			<nav id="nav-bar">
+				<ul>
+					<li><a class="nav-link" href="#features">Features</a></li>
+					<li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+					<li><a class="nav-link" href="#princing">Princing</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="container"></div>
+	<!--Segunda Parte Formulario-->
+		<section id="hero">
+			<h2>Handcrefted, home-made masterpieces</h2>
+			<!--Crear Formulario-->
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<input name="email" id="email" type="email" placeholder="Ingrese su correo" required>
+				<input id="submit" type="submit" value="Empieza" class="btn">
+			</form>
+		</section>
+	<!--Tercera Parte Productos-->
+		<div class="container">
+			<section id="features">
+				<div class="grid">
+					<div class="icon"><i class="a fa-3x fa-fire"></i></div>
+					<div class="desc">
+						<h2>Materiales Premiun</h2>
+						<p>
+							Our trombones use the shiniest brass which is sourced locally. This
+            				will increase the longevity of your purchase.
+						</p>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="icon">
+						<i class="a fa-3x fa-fire" aria-hidden="true"></i>
+					</div>
+					<div class="desc">
+						<h2>Quality Assurance</h2>
+						<p>
+							For every purchase you make, we will ensure there are no damages or
+            				faults and we will check and test the pitch of your instrument.
+						</p>
+					</div>
+				</div>
+			</section>
+		<!--Cuarta Parte Como Trabajan-->
+			<section id="how-it-works">
+				<iframe id="video" height="315" 
+				src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" 
+				frameborder="0" allowfullscreen>
+				</iframe>
+			</section>
+		<!--Quinta Parte Precios-->
+			<section id="princing">
+				<div class="product" id="tenor">
+					<!--Producto 1-->
+					<div class="level">Tenor Trambone</div>
+					<h2>$600</h2>
+					<ol>
+						<li>Lorem Ipsum</li>
+						<li>Lorem ipsum</li>
+						<li>Lorem ipsum dolor</li>
+						<li>Lorem ipsum</li>
+					</ol>
+					<button class="btn">Select</button>
+				</div>
+				<div class="product" id="valve">
+					<!--Producto 2-->
+					<div class="level">Valve Trombone</div>
+					<h2>$1200</h2>
+					<ol>
+						<li>Plays similar to a Trumpet</li>
+						<li>Great for Jazz Bands</li>
+						<li>Lorem ipsum dolor.</li>
+						<li>Lorem ipsum.</li>
+					</ol>
+					<button class="btn">Select</button>
+				</div>
+			</section>
+		<!--Sexta Parte Pie de Pagina-->
+			<footer>
+				<ul>
+					<li><a href="#"></a>Privacy</li>
+					<li><a href="#"></a>Terms</li>
+					<li><a href="#"></a>Contact</li>
+				</ul>
+				<span>Copyright 2022, Original Trombones</span>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
